@@ -86,6 +86,7 @@ export default function Home() {
         angpaoText={locale.gift.angpaoText}
         giftText={locale.gift.giftText}
         content={locale.gift.body}
+        isRsvp={true}
       />
 
       <Messages

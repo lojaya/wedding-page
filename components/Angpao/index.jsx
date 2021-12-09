@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import { useRouter } from "next/router";
 
 export default function Transfer({
   title = "Pindai QR atau salin nomor rekening",
   subtitle,
 }) {
+  const router = useRouter();
+  const linkRef = router?.query?.ref;
+
   return (
     <section id="location" className="spacer-one-top-lg">
       <div className="container spacer-one-bottom-lg">
@@ -26,11 +30,7 @@ export default function Transfer({
               <h2 className="mb-0">BCA</h2>
               <h5 className="mb-0">Iksandi Lojaya</h5>
               <h4 className="mb-0">5040230957</h4>
-              <img
-                alt="BCA"
-                className="rounded img-fluid"
-                src="/qr/bca.jpeg"
-              />
+              <img alt="BCA" className="rounded img-fluid" src="/qr/bca.jpeg" />
               <div className="badge-overlap">
                 <span className="badge">Bank: BCA</span>
               </div>
@@ -62,11 +62,7 @@ export default function Transfer({
               <h2 className="mb-0">OVO</h2>
               <h5 className="mb-0">Iksandi Lojaya</h5>
               {/* <h4 className="mb-0">085273703927</h4> */}
-              <img
-                alt="OVO"
-                className="rounded img-fluid"
-                src="/qr/ovo.jpeg"
-              />
+              <img alt="OVO" className="rounded img-fluid" src="/qr/ovo.jpeg" />
               <div className="badge-overlap">
                 <span className="badge">E-Wallet: OVO</span>
               </div>
@@ -89,7 +85,10 @@ export default function Transfer({
         <div className="row">
           <div className="col">
             <div className="text-center mt-5 pt-5">
-              <Link href="/" scroll={false}>
+              <Link
+                href={{ pathname: linkRef === "rsvp" ? "/rsvp" : "/" }}
+                scroll={false}
+              >
                 <a className="btn btn-secondary btn-wide-md btn-md cursor-pointer">
                   Kembali ke e-invitation
                 </a>
