@@ -1,0 +1,26 @@
+{
+  "name": "oven",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "firebase": "^9.6.0",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^4.0.1",
+    "react-image-lightbox": "^5.1.4",
+    "sass": "^1.44.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  }
+}

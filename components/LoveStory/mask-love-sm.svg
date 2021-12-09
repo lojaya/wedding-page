@@ -1,0 +1,27 @@
+<svg
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  viewBox="0 0 607 532"
+  enable-background="new 0 0 607 532"
+  xml-space="preserve"
+>
+  <defs>
+    <mask id="mask-small-1">
+      <path
+        fill="#FFFFFF"
+        d="M303.2954,55.7655L303.2954,55.7655c-68.9887-68.3032-180.269-68.3601-249.3155,0.1402
+                    c-69.6423,69.0921-69.0838,181.9562,0.0139,251.5284l201.1888,202.5704c26.2076,26.3876,68.8445,26.5335,95.2321,0.3258
+                    l201.4838-200.1096c69.6179-69.1431,71.0768-183.7278,2.0303-253.4415C485.013-12.8027,372.7591-13.2244,303.2954,55.7655z"
+      />
+    </mask>
+  </defs>
+  <image
+    mask="url(#mask-small-1)"
+    width="607"
+    height="532"
+    xlink:href="/images/mask-md.jpg"
+  />
+</svg>
