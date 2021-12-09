@@ -1,7 +1,7 @@
 import Link from "next/link";
 import CurvedSeparator from "./curved-separator.svg";
 
-export default function Gift({ title, subtitle, content }) {
+export default function Gift({ title, angpaoText, giftText, content }) {
   return (
     <section id="send-gift" className="bg-primary">
       <div className="container spacer-double-lg">
@@ -19,11 +19,22 @@ export default function Gift({ title, subtitle, content }) {
             <p className="lead text-white mb-0">{content}</p>
           </div>
           <div className="col-md-5">
-            <Link href="/gift">
-              <a className="btn btn-secondary btn-wide-lg btn-lg cursor-pointer">
-                {subtitle}
-              </a>
-            </Link>
+            <div className="row">
+              <div className="col-md-6 col-sm-12 pt-5">
+                <Link href="/angpao">
+                  <a className="btn btn-secondary btn-wide-lg btn-lg cursor-pointer">
+                    {angpaoText}
+                  </a>
+                </Link>
+              </div>
+              <div className="col-md-6 col-sm-12 pt-5">
+                <Link href="/gift">
+                  <a className="btn btn-secondary btn-wide-lg btn-lg cursor-pointer">
+                    {giftText}
+                  </a>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

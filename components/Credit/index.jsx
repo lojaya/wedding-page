@@ -17,7 +17,7 @@ export default function Credit({ title, subtitle, dates }) {
           paddingTop: "40px",
         }}
       >
-        <img style={{ width: "100%" }} src="/flower-footer.png" alt="" />
+        <img style={{ width: "100%" }} src="/img/flower-footer.png" alt="" />
       </div>
     </section>
   );

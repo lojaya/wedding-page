@@ -82,7 +82,8 @@ const locale = {
   event_reception_city: "Bandung",
 
   gift_title: "Kado Pernikahan",
-  gift_subtitle: "Kirim Kado",
+  gift_angpao_text: "Kirim Angpao",
+  gift_gift_text: "Kirim Kado",
   gift_body:
     "Merupakan suatu kehormatan dan kebahagiaan kami apabila Anda berkenan hadir untuk memberikan doa terbaik bagi kami, namun bagi Anda yang ingin memberikan kado spesial, kami menyediakan beberapa alternatif.",
 

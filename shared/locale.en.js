@@ -79,8 +79,9 @@ const locale = {
   event_reception_address_2: "Lengkong",
   event_reception_city: "Bandung",
 
-  gift_title: "Wedding Gifts",
-  gift_subtitle: "Send Gifts",
+  gift_title: "Wedding Gift",
+  gift_angpao_text: "Send Angpao",
+  gift_gift_text: "Send Gift",
   gift_body:
     "It is our honor and happiness if you are willing to attend to give us your best wishes, but for those of you who want to give a special gift, we provide several alternatives.",
 

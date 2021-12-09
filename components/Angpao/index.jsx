@@ -29,7 +29,7 @@ export default function Transfer({
               <img
                 alt="BCA"
                 className="rounded img-fluid"
-                src="/gifts/bca.jpeg"
+                src="/qr/bca.jpeg"
               />
               <div className="badge-overlap">
                 <span className="badge">Bank: BCA</span>
@@ -49,7 +49,7 @@ export default function Transfer({
               <img
                 alt="GoPay"
                 className="rounded img-fluid"
-                src="/gifts/gopay.jpeg"
+                src="/qr/gopay.jpeg"
               />
               <div className="badge-overlap">
                 <span className="badge">E-Wallet: GoPay</span>
@@ -65,7 +65,7 @@ export default function Transfer({
               <img
                 alt="OVO"
                 className="rounded img-fluid"
-                src="/gifts/ovo.jpeg"
+                src="/qr/ovo.jpeg"
               />
               <div className="badge-overlap">
                 <span className="badge">E-Wallet: OVO</span>

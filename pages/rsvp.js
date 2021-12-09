@@ -45,7 +45,9 @@ export default function Home() {
         date={locale.header.date}
         background={sharedData.headerBackground}
         msgButtonText={locale.message.title}
-        giftButtonText={locale.gift.subtitle}
+        giftButtonText={locale.gift.giftText}
+        rsvpButtonText={locale.rsvp.title}
+        isRsvp={true}
       />
 
       <SaveTheDate
@@ -81,7 +83,8 @@ export default function Home() {
 
       <Gift
         title={locale.gift.title}
-        subtitle={locale.gift.subtitle}
+        angpaoText={locale.gift.angpaoText}
+        giftText={locale.gift.giftText}
         content={locale.gift.body}
       />
 

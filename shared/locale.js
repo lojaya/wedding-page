@@ -89,7 +89,8 @@ const transform = function transform(data) {
 
     gift: {
       title: data.gift_title,
-      subtitle: data.gift_subtitle,
+      angpaoText: data.gift_angpao_text,
+      giftText: data.gift_gift_text,
       body: data.gift_body,
     },
 

@@ -60,7 +60,7 @@ export default function Navigation({
                 style={{ cursor: "pointer" }}
                 onClick={changeLanguage}
               >
-                <img src={`/${state.lang}.png`} alt="" />
+                <img src={`/img/${state.lang}.png`} alt="" />
               </a>
             </ul>
           </div>

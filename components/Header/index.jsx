@@ -9,6 +9,8 @@ export default function Header({
   background,
   msgButtonText,
   giftButtonText,
+  rsvpButtonText,
+  isRsvp
 }) {
   return (
     <section className="gradient-overlay gradient-overlay-dark">
@@ -46,6 +48,15 @@ export default function Header({
               {giftButtonText}
             </a>
           </div>
+          {isRsvp && <div className="col-12">
+            <a
+              href="#rsvp"
+              onClick={scrollToAnchor}
+              className="btn btn-primary btn-wide-sm btn-sm mx-2"
+            >
+              {rsvpButtonText}
+            </a>
+          </div>}
         </div>
       </div>
       <div className="curved-decoration">

@@ -159,7 +159,7 @@ svg.icon-svg {
 }
 
 section#send-gift:after {
-  background-image: url(/svg/pattern.svg);
+  background-image: url(/img/pattern.svg);
   background-repeat: repeat;
   position: absolute;
   content: "";
