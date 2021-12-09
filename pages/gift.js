@@ -36,7 +36,7 @@ export default function Home() {
           </div>
         </div>
         <iframe
-          src="http://www.wishsite.net/embed/idmeod45"
+          src="https://www.wishsite.net/embed/idmeod45"
           width="100%"
           height="auto"
           style={{
