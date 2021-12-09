@@ -76,7 +76,7 @@ export default function Home() {
         receptionData={locale.events.reception}
         background={sharedData.eventBackground}
         background2={sharedData.eventBackground2}
-        giftButtonText={locale.gift.subtitle}
+        giftButtonText={locale.gift.giftText}
       />
 
       <Gallery gallery={sharedData.gallery} />
