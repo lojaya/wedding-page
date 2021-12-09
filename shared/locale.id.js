@@ -20,7 +20,7 @@ const locale = {
 
   date_title: "Farah & Iksandi",
   date_subtitle: "Sabtu, 18 Desember 2021 - Hotel Grand Asrilia, Bandung",
-  date_body: "Kami akan menjadi keluarga dalam waktu",
+  date_body: "Kami akan menikah dalam waktu",
   date_countdown_day: "Hari",
   date_countdown_hour: "Jam",
   date_countdown_minute: "Menit",
@@ -29,32 +29,30 @@ const locale = {
   story_title: "Cerita Kami",
   story_subtitle: "",
   story_top_title:
-    "Semua berawal dari rekanan kantor di tahun 2017",
+    "Semua berawal dari rekan kantor di tahun 2018",
   story_top_body: "",
   story_bottom_title: "Setelah empat tahun, di tahun 2021...",
   story_bottom_body:
     "Iksandi memberanikan diri untuk menyampaikan keinginan menyamakan visi untuk membangun keluarga bersama.",
     story_timeline: [
       ["Pertemuan", "Februari 2018", `
-      Farah bertemu Iksandi pada Februari 2018, Kami merupakan teman makan siang saat bekerja di Xtremax (Terima Kasih Xtremax yang telah mempertemukan Kami!)
+      Pada tahun 2018, Farah bertemu Iksandi dan kami merupakan teman makan siang di Xtremax (Terimakasih Xtremax yang telah mempertemukan kami! :) )
       <br/>
-      Saat berbagi cerita, Farah menilai Iksandi sebagai orang yang menginspirasi, pintar dan lucu, dari sana hubungan kami semakin dekat..
+      Saat berbagi cerita, Farah menilai Iksandi merupakan pribadi yang mengispirasi, pintar dan menyenangkan, dari sanalah hubungan kami semakin dekat.
       `],
-      ["PDKT", "April 2018", `
-      Kami sering jalan bersama pada April sampai Juni 2018. Kami merasa seperti sudah lebih dari sekedar teman, sampai akhirnya Farah bertanya kepada Iksandi mengenai hubungan serius.
-      <br/>
-      Iksandi merasa bahwa waktunya masih kurang tepat, dia belum siap untuk memiliki hubungan serius dan belum bisa menjanjikan apapun, meskipun Kami sudah merasa nyaman satu sama lain.
+      ["Mengenal Satu Sama Lain", "April 2018", `
+      Kami sering jalan bersama pada April hingga Juni 2018. Kami merasa seperti sudah lebih dari sekedar teman, hingga akhirnya Farah bertanya kepada Iksandi mengenai niat untuk melanjutkan ke hubungan yang serius.
       `],
-      ["Pacaran", "Juli 2018", `
+      ["Bersatu", "Juli 2018", `
       Juli-Agustus 2018, Kami jujur dengan perasaan Kami berdua.
       <br/>
       Iksandi tidak pernah mengisyaratkan cinta secara tersurat kepada Farah, walau begitu hubungan Kami makin erat.
       `],
       ["Mengikat Janji", "Agustus 2018", `
-      Semenjak itu Kami pun akhirnya bersama, ada pula masa dimana Kami harus dipisahkan oleh jarak dikarenakan Iksandi berada di Jakarta sedangkan Farah berada di Singapur. 
+      Semenjak itu Kami pun akhirnya bersama, ada pula masa dimana Kami harus dipisahkan oleh jarak dikarenakan Iksandi berada di Jakarta sedangkan Farah berada di Singapura.
       `],
       ["Melamar", "Juni 2021", `
-      Saat Kami kembali ditugaskan di Bandung pada Februari 2021, Kami sangat senang karena dapat bertemu dan makan bersama kembali. Lalu selanjutnya pada Juli 2021, Iksandi melamar Farah sebagai awal dari menjalani hidup bersama.
+      Kami akhirnya memutuskan untuk kembali ke Bandung pada Februari 2021, kami sangat senang karena dapat bertemu dan makan bersama kembali. Dan pada Maret 2021, Iksandi melamar Farah sebagai tahap awal mengikat janji hidup bersama.
       `],
     ],
 
@@ -85,7 +83,7 @@ const locale = {
   gift_angpao_text: "Kirim Angpao",
   gift_gift_text: "Kirim Kado",
   gift_body:
-    "Merupakan suatu kehormatan dan kebahagiaan kami apabila Anda berkenan hadir untuk memberikan doa terbaik bagi kami, namun bagi Anda yang ingin memberikan kado spesial, kami menyediakan beberapa alternatif.",
+    "Merupakan suatu kehormatan dan kebahagiaan kami apabila Anda berkenan hadir untuk memberikan doa terbaik bagi kami. Bagi Anda yang ingin memberikan kado spesial, kami memiliki beberapa alternatif",
 
   message_title: "Pesan dan Ucapan",
   message_subtitle: "",
@@ -141,7 +139,7 @@ const locale = {
     },
   ],
 
-  teaser_title: "Tonton Video Teaser Kami",
+  teaser_title: "Saksikan Video Teaser Kami",
   teaser_subtitle: "Kami menantikan kehadiranmu",
 
   prokes_title: "Protokol Kesehatan",

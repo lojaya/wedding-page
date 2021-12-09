@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
@@ -8,6 +8,7 @@ import { LangContext } from "../contexts/language";
 export default function Home() {
   const router = useRouter();
   const [state] = useContext(LangContext);
+  const [isLoading, updateLoading] = useState(true);
   const { locale } = state;
   const linkRef = router?.query?.ref;
 
@@ -35,14 +36,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <iframe
-          src="https://www.wishsite.net/embed/idmeod45"
-          width="100%"
-          height="auto"
-          style={{
-            height: "calc(100vh - 150px)",
-          }}
-        ></iframe>
+        <div>
+          {isLoading ? <div className="loader" /> : null}
+          <iframe
+            src="https://www.wishsite.net/embed/idmeod45"
+            width="100%"
+            height="auto"
+            style={{
+              height: "calc(100vh - 150px)",
+            }}
+            onLoad={() => updateLoading(!isLoading)}
+            frameBorder="0"
+            marginHeight="0"
+            marginWidth="0"
+          ></iframe>
+        </div>
       </div>
     </div>
   );

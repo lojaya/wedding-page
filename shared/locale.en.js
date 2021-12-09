@@ -19,7 +19,7 @@ const locale = {
 
   date_title: "Farah & Iksandi",
   date_subtitle: "Saturday December 18th, 2021 - Grand Asrilia Hotel, Bandung",
-  date_body: "We will become a family in",
+  date_body: "We are getting married in",
   date_countdown_day: "Day",
   date_countdown_hour: "Hours",
   date_countdown_minute: "Minutes",
