@@ -40,8 +40,6 @@ const locale = {
     `],
     ["First date", "April 2018", `
     We had many dates on April-June 2018. We are such a close friend but it feels more than that, then one day Farah asked Iksandi if we are looking for a serious commitment about our relationship.
-    <br/>
-    Iksandi thought that the timing is not right, he is not ready for serious commitment and can’t promise anything eventhough we feel comfy about each other.
     `],
     ["Love began", "July 2018", `
     July-August 2018, we are getting open about our feelings.

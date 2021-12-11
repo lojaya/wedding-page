@@ -44,7 +44,7 @@ const locale = {
       Kami sering jalan bersama pada April hingga Juni 2018. Kami merasa seperti sudah lebih dari sekedar teman, hingga akhirnya Farah bertanya kepada Iksandi mengenai niat untuk melanjutkan ke hubungan yang serius.
       `],
       ["Bersatu", "Juli 2018", `
-      Juli-Agustus 2018, Kami jujur dengan perasaan Kami berdua.
+      Juli-Agustus 2018, Kami mulai terbuka dengan perasaan Kami berdua. 
       <br/>
       Iksandi tidak pernah mengisyaratkan cinta secara tersurat kepada Farah, walau begitu hubungan Kami makin erat.
       `],
