@@ -53,7 +53,10 @@ export default function Navigation({
                     className="nav-link scroll"
                     href={href}
                     key={i}
-                    onClick={scrollToAnchor}
+                    onClick={(e) => {
+                      scrollToAnchor(e);
+                      setOpen(false);
+                    }}
                   >
                     {title}
                   </a>
