@@ -55,6 +55,7 @@ export default function Home() {
         countdownText={locale.save_the_date.countdown}
         dateCountdown={sharedData.dateCountdown}
         background={sharedData.dateMaskPicture}
+        streamId={sharedData.liveStreamSource}
       />
 
       <LoveStory

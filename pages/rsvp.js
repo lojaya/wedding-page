@@ -47,6 +47,7 @@ export default function Home() {
         msgButtonText={locale.message.title}
         giftButtonText={locale.gift.giftText}
         rsvpButtonText={locale.rsvp.title}
+        streamId={sharedData.liveStreamSource}
         isRsvp={true}
       />
 

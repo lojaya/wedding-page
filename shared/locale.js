@@ -10,6 +10,7 @@ const transform = function transform(data) {
     navigation: {
       logo_text: data.nav_logo_text,
       items: [
+        ["#live", data.nav_item_live],
         ["#story", data.nav_item_story],
         ["#wedding", data.nav_item_wedding],
         ["#gallery", data.nav_item_gallery],
@@ -61,7 +62,7 @@ const transform = function transform(data) {
         address_2: data.event_akad_address_2,
         city: data.event_akad_city,
         maps: sharedData.mapLocation,
-        direction_text: data.acco_get_direction_button
+        direction_text: data.acco_get_direction_button,
       },
 
       teapai: {
@@ -72,7 +73,7 @@ const transform = function transform(data) {
         address_2: data.event_teapai_address_2,
         city: data.event_teapai_city,
         maps: sharedData.mapLocation,
-        direction_text: data.acco_get_direction_button
+        direction_text: data.acco_get_direction_button,
       },
 
       reception: {
@@ -83,7 +84,7 @@ const transform = function transform(data) {
         address_2: data.event_reception_address_2,
         city: data.event_reception_city,
         maps: sharedData.mapLocation,
-        direction_text: data.acco_get_direction_button
+        direction_text: data.acco_get_direction_button,
       },
     },
 

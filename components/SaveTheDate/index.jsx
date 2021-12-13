@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import useCountdown from "./use-countdown";
 import MaskLoveSvg from "./mask-love";
 import CurvedSeparator from "./curved-separator.svg";
@@ -9,11 +10,12 @@ export default function SaveTheDate({
   dateCountdown,
   background,
   countdownText,
+  streamId
 }) {
   const countdownEl = useCountdown(dateCountdown, countdownText);
 
   return (
-    <section id="save-the-date">
+    <section id="live">
       <div className="container spacer-double-lg">
         <div className="row justify-content-lg-between align-items-center">
           <div className="col-md-6 mb-5 mb-md-0">
@@ -22,6 +24,22 @@ export default function SaveTheDate({
               <p className="lead font-weight-300 text-dark-gray opacity-8">
                 {subtitle}
               </p>
+              <p className="lead">
+                <a
+                  href={`https://youtu.be/${streamId}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Streaming YouTube{" "}
+                  <img
+                    src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-share-8.png&r=255&g=0&b=0"
+                    alt="share"
+                    width="16"
+                    style={{ verticalAlign: "inherit" }}
+                  />
+                </a>
+              </p>
+
               <p className="mb-4 pr-5">{body}</p>
               <div className="countdown row text-center">{countdownEl}</div>
             </div>

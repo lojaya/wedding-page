@@ -3,8 +3,9 @@ const locale = {
   page_description: "The Wedding of Farah & Iksandi, 18 December 2021",
 
   nav_logo_text: "",
+  nav_item_live: "Live Stream",
   nav_item_story: "Our Story",
-  nav_item_wedding: "Wedding",
+  nav_item_wedding: "Wedding Events",
   nav_item_gallery: "Gallery",
   nav_item_gift: "Send Gift",
   nav_item_message: "Message",

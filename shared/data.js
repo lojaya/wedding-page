@@ -4,6 +4,7 @@ const data = {
   dateMaskPicture: "https://drive.google.com/uc?id=1yyozSDPF19RYTG-_rP6HQacO2jp9QLgk",
   eventBackground: "https://drive.google.com/uc?id=15Mt-WbpDEVGb_quHyTmw60G5oh43Y4WK",
   eventBackground2: "https://drive.google.com/uc?id=1bRUKIsdc73u9uwoX9BL0px85UKNDYKR7",
+  liveStreamSource: "xwNntzPF_Yo",
   videoSource: "N7AtBmXzIlU",
   videoBackground: "https://drive.google.com/uc?id=1rfbqnH5J1YhQBl75d2Pzcei4kCLpEAWZ",
   mapLocation: "https://goo.gl/maps/ygkT7PbKwRDwzQcB8",

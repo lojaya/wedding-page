@@ -3,6 +3,7 @@ const locale = {
   page_description: "Pernikahan Farah & Iksandi, 18 Desember 2021",
 
   nav_logo_text: "",
+  nav_item_live: "Siaran Langsung",
   nav_item_story: "Cerita Kami",
   nav_item_wedding: "Acara",
   nav_item_gallery: "Galeri",

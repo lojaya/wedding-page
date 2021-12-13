@@ -10,7 +10,7 @@ export default function Credit({ title, subtitle, dates }) {
       <h6 className="mb-5 text-dark-gray">{dates}</h6>
 
       <h6 className="mb-0 text-dark-gray">
-        hosted on{" "}
+        hosted on&nbsp;
         <a
           href="https://firebase.google.com"
           target="_blank"
