@@ -25,8 +25,13 @@ export default function Navigation({
     <header className={stickyClasses}>
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5">
-          <a className="navbar-brand navbar-logo scroll">
-            {navigationLogoText}
+          <a
+            className="navbar-brand navbar-logo scroll"
+            style={{ cursor: "pointer" }}
+            onClick={changeLanguage}
+            title="Change Language"
+          >
+            <img src={`/img/${state.lang}.png`} alt="" />
           </a>
           <button
             className={togglerClasses}
@@ -54,14 +59,6 @@ export default function Navigation({
                   </a>
                 );
               })}
-
-              <a
-                className="nav-link"
-                style={{ cursor: "pointer" }}
-                onClick={changeLanguage}
-              >
-                <img src={`/img/${state.lang}.png`} alt="" />
-              </a>
             </ul>
           </div>
         </nav>

@@ -54,6 +54,10 @@ export default function Transfer({
               <div className="badge-overlap">
                 <span className="badge">E-Wallet: GoPay</span>
               </div>
+
+              <CopyToClipboard text="085273703927">
+                <button className="btn btn-primary">Salin Nomor</button>
+              </CopyToClipboard>
             </div>
           </div>
 
@@ -66,6 +70,10 @@ export default function Transfer({
               <div className="badge-overlap">
                 <span className="badge">E-Wallet: OVO</span>
               </div>
+
+              <CopyToClipboard text="085273703927">
+                <button className="btn btn-primary">Salin Nomor</button>
+              </CopyToClipboard>
             </div>
           </div>
 
