@@ -28,33 +28,52 @@ const locale = {
 
   story_title: "Cerita Kami",
   story_subtitle: "",
-  story_top_title:
-    "Semua berawal dari rekan kantor di tahun 2018",
+  story_top_title: "Semua berawal dari rekan kantor di tahun 2018",
   story_top_body: "",
-  story_bottom_title: "Setelah empat tahun, di tahun 2021...",
+  story_bottom_title: "Setelah tiga tahun, di tahun 2021...",
   story_bottom_body:
     "Iksandi memberanikan diri untuk menyampaikan keinginan menyamakan visi untuk membangun keluarga bersama.",
-    story_timeline: [
-      ["Pertemuan", "Februari 2018", `
+  story_timeline: [
+    [
+      "Pertemuan",
+      "Februari 2018",
+      `
       Pada tahun 2018, Farah bertemu Iksandi dan kami merupakan teman makan siang di Xtremax (Terimakasih Xtremax yang telah mempertemukan kami! :) )
       <br/>
       Saat berbagi cerita, Farah menilai Iksandi merupakan pribadi yang mengispirasi, pintar dan menyenangkan, dari sanalah hubungan kami semakin dekat.
-      `],
-      ["Mengenal Satu Sama Lain", "April 2018", `
+      `,
+    ],
+    [
+      "Mengenal Satu Sama Lain",
+      "April 2018",
+      `
       Kami sering jalan bersama pada April hingga Juni 2018. Kami merasa seperti sudah lebih dari sekedar teman, hingga akhirnya Farah bertanya kepada Iksandi mengenai niat untuk melanjutkan ke hubungan yang serius.
-      `],
-      ["Bersatu", "Juli 2018", `
+      `,
+    ],
+    [
+      "Bersatu",
+      "Juli 2018",
+      `
       Juli-Agustus 2018, Kami mulai terbuka dengan perasaan Kami berdua. 
       <br/>
       Iksandi tidak pernah mengisyaratkan cinta secara tersurat kepada Farah, walau begitu hubungan Kami makin erat.
-      `],
-      ["Mengikat Janji", "Agustus 2018", `
-      Semenjak itu Kami pun akhirnya bersama, ada pula masa dimana Kami harus dipisahkan oleh jarak dikarenakan Iksandi berada di Jakarta sedangkan Farah berada di Singapura.
-      `],
-      ["Melamar", "Juni 2021", `
-      Kami akhirnya memutuskan untuk kembali ke Bandung pada Februari 2021, kami sangat senang karena dapat bertemu dan makan bersama kembali. Dan pada Maret 2021, Iksandi melamar Farah sebagai tahap awal mengikat janji hidup bersama.
-      `],
+      `,
     ],
+    [
+      "Mengikat Janji",
+      "Agustus 2018",
+      `
+      Semenjak itu Kami pun akhirnya bersama, ada pula masa dimana Kami harus dipisahkan oleh jarak dikarenakan Iksandi berada di Jakarta sedangkan Farah berada di Singapura.
+      `,
+    ],
+    [
+      "Melamar",
+      "Juni 2021",
+      `
+      Kami akhirnya memutuskan untuk kembali ke Bandung pada Februari 2021, kami sangat senang karena dapat bertemu dan makan bersama kembali. Dan pada Maret 2021, Iksandi melamar Farah sebagai tahap awal mengikat janji hidup bersama.
+      `,
+    ],
+  ],
 
   event_title: "Acara Pernikahan",
 

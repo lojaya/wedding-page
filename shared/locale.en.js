@@ -27,31 +27,51 @@ const locale = {
 
   story_title: "Our Story",
   story_subtitle: "",
-  story_top_title: "We started as office colleagues in 2017",
-  story_top_body: '',
-  story_bottom_title: "In 2021, four years later...",
+  story_top_title: "We started as office colleagues in 2018",
+  story_top_body: "",
+  story_bottom_title: "In 2021, three years later...",
   story_bottom_body:
     "Iksandi conveyed the intention of wanting to share the vision of building a family together.",
   story_timeline: [
-    ["First met", "Februari 2018", `
+    [
+      "First met",
+      "Februari 2018",
+      `
     Farah met Iksandi on February 2018, we are a lunch buddy at Xtremax (Thanks to Xtremax for the opportunity for us to meet!)
     <br/>
     When we discuss about anything, Farah finds Iksandi as an inspiring, smart and funny person, We are getting closer day by day since then..
-    `],
-    ["First date", "April 2018", `
+    `,
+    ],
+    [
+      "First date",
+      "April 2018",
+      `
     We had many dates on April-June 2018. We are such a close friend but it feels more than that, then one day Farah asked Iksandi if we are looking for a serious commitment about our relationship.
-    `],
-    ["Love began", "July 2018", `
+    `,
+    ],
+    [
+      "Love began",
+      "July 2018",
+      `
     July-August 2018, we are getting open about our feelings.
     <br/>
     Iksandi never confessed and never asked if Farah wants to be his girlfriend but our bond keeps growing stronger and ever.
-    `],
-    ["Together since", "August 2018", `
+    `,
+    ],
+    [
+      "Together since",
+      "August 2018",
+      `
     We have been together ever since, there was also a phase when we started a long distance relationship because Iksandi is working in Jakarta while Farah is working in Singapore. 
-    `],
-    ["He Proposed", "June 2021", `
+    `,
+    ],
+    [
+      "He Proposed",
+      "June 2021",
+      `
     When we are assigned back to Bandung on February 2021, We are so excited as we can meet and have a supper together, everyday! Later on June 2021, Iksandi proposed to Farah as a small step to lead a new life together.
-    `],
+    `,
+    ],
   ],
 
   event_title: "Wedding Events",
@@ -145,7 +165,8 @@ const locale = {
     "For the success of the event and the common good, let's always adhere to health protocols by:",
 
   prokes_1_item_title: "Wear a mask",
-  prokes_1_item_subtitle: "We expect invited guests to always wear masks when attending our wedding receptions.",
+  prokes_1_item_subtitle:
+    "We expect invited guests to always wear masks when attending our wedding receptions.",
   prokes_1_item_icon: "/img",
   prokes_2_item_title: "Wash your hands",
   prokes_2_item_subtitle:
