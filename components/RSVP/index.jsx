@@ -1,9 +1,5 @@
 import RsvpForm from "./rsvp-form";
 
-import IllustrationLove from "./illustration-love.svg";
-import IllustrationRound from "./illustration-round.svg";
-import CurvedSeparator from "./curved-separator.svg";
-
 export default function Rsvp({ title, subtitle, formConfig }) {
   return (
     <section id="rsvp" className="bg-secondary spacer-one-top-lg o-hidden">
