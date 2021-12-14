@@ -22,20 +22,17 @@ export default function Home() {
       </Head>
 
       <div>
-        <div className="row">
-          <div className="col">
-            <div className="text-center mt-5 mb-5">
-              <Link
-                href={{ pathname: linkRef === "rsvp" ? "/rsvp" : "/" }}
-                scroll={false}
-              >
-                <a className="btn btn-secondary btn-wide-md btn-md cursor-pointer">
-                  Kembali ke e-invitation
-                </a>
-              </Link>
-            </div>
-          </div>
+        <div className="text-center mt-5 mb-5">
+          <Link
+            href={{ pathname: linkRef === "rsvp" ? "/rsvp" : "/" }}
+            scroll={false}
+          >
+            <a className="btn btn-secondary btn-wide-md btn-md cursor-pointer">
+              Kembali ke e-invitation
+            </a>
+          </Link>
         </div>
+
         <div>
           {isLoading ? <div className="loader" /> : null}
           <iframe
