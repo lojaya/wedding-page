@@ -14,20 +14,20 @@ export default function MessageBox() {
   );
 
   return (
-    <div
-      className="col-md-7 d-flex flex-column bg-white p-40 full-width messages-box"
-    >
-      {messages?.docs?.map((msg, i) => {
-        const data = msg?.data();
-        return (
-          <div className="mb-4" key={i}>
-            <b>{data?.name}</b>
-            <br />
-            <p className="mb-5">{data?.message}</p>
-            <div className="messages-divider"></div>
-          </div>
-        );
-      })}
+    <div className="col-md-7 d-flex flex-column">
+      <div className="bg-white messages-box">
+        {messages?.docs?.map((msg, i) => {
+          const data = msg?.data();
+          return (
+            <div className="mb-4" key={i}>
+              <b>{data?.name}</b>
+              <br />
+              <p className="mb-5">{data?.message}</p>
+              <div className="messages-divider"></div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
