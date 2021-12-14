@@ -24,17 +24,6 @@ export default function Rsvp({ title, subtitle, formConfig }) {
           </div>
         </div>
       </div>
-      <div className="curved-decoration">
-        <CurvedSeparator className="bg-white-svg" width="100%" height="100%" />
-      </div>
-      <div className="svg-decoration-container">
-        <div className="svg-decoration middle-left">
-          <IllustrationLove width="100%" height="100%" />
-        </div>
-        <div className="svg-decoration bottom-right">
-          <IllustrationRound />
-        </div>
-      </div>
     </section>
   );
 }
