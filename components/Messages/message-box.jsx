@@ -15,13 +15,7 @@ export default function MessageBox() {
 
   return (
     <div
-      className="col-md-7 d-flex flex-column bg-white p-40 full-width"
-      style={{
-        padding: "20px",
-        overflowY: "auto",
-        height: "400px",
-        border: "1px solid #dce0e0",
-      }}
+      className="col-md-7 d-flex flex-column bg-white p-40 full-width messages-box"
     >
       {messages?.docs?.map((msg, i) => {
         const data = msg?.data();
@@ -29,7 +23,8 @@ export default function MessageBox() {
           <div className="mb-4" key={i}>
             <b>{data?.name}</b>
             <br />
-            {data?.message}
+            <p className="mb-5">{data?.message}</p>
+            <div className="messages-divider"></div>
           </div>
         );
       })}
