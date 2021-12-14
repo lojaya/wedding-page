@@ -1,6 +1,6 @@
 const data = {
   headerBackground: "https://drive.google.com/uc?id=1EcKd35ODZoJxXvyseUsSiVMBesshmRz7",
-  dateCountdown: "2021-12-18",
+  dateCountdown: "2021-12-18T07:30:00",
   dateMaskPicture: "https://drive.google.com/uc?id=1yyozSDPF19RYTG-_rP6HQacO2jp9QLgk",
   eventBackground: "https://drive.google.com/uc?id=15Mt-WbpDEVGb_quHyTmw60G5oh43Y4WK",
   eventBackground2: "https://drive.google.com/uc?id=1bRUKIsdc73u9uwoX9BL0px85UKNDYKR7",

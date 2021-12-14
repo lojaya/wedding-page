@@ -54,6 +54,7 @@ export default function Home() {
       <SaveTheDate
         title={locale.save_the_date.title}
         subtitle={locale.save_the_date.subtitle}
+        liveStreamText={locale.save_the_date.liveStreamText}
         body={locale.save_the_date.body}
         countdownText={locale.save_the_date.countdown}
         dateCountdown={sharedData.dateCountdown}

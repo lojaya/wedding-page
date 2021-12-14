@@ -6,6 +6,7 @@ import CurvedSeparator from "./curved-separator.svg";
 export default function SaveTheDate({
   title,
   subtitle,
+  liveStreamText,
   body,
   dateCountdown,
   background,
@@ -30,7 +31,7 @@ export default function SaveTheDate({
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Live Streaming YouTube{" "}
+                  {liveStreamText + " "}
                   <img
                     src="https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2012/png/iconmonstr-share-8.png&r=255&g=0&b=0"
                     alt="share"

@@ -8,7 +8,7 @@ const locale = {
   nav_item_wedding: "Acara",
   nav_item_gallery: "Galeri",
   nav_item_gift: "Kirim Kado",
-  nav_item_message: "Pesan dan Ucapan",
+  nav_item_message: "Pesan & Ucapan",
   nav_item_rsvp: "Konfirmasi Kehadiran",
   nav_item_location: "Akomodasi",
   nav_item_teaser: "Teaser",
@@ -21,6 +21,7 @@ const locale = {
 
   date_title: "Farah & Iksandi",
   date_subtitle: "Sabtu, 18 Desember 2021 - Hotel Grand Asrilia, Bandung",
+  date_live_stream_text: 'Siaran Langsung Akad Nikah di YouTube',
   date_body: "Kami akan menikah dalam waktu",
   date_countdown_day: "Hari",
   date_countdown_hour: "Jam",
@@ -41,7 +42,7 @@ const locale = {
       `
       Pada tahun 2018, Farah bertemu Iksandi dan kami merupakan teman makan siang di Xtremax (Terimakasih Xtremax yang telah mempertemukan kami! :) )
       <br/>
-      Saat berbagi cerita, Farah menilai Iksandi merupakan pribadi yang mengispirasi, pintar dan menyenangkan, dari sanalah hubungan kami semakin dekat.
+      Saat berbagi cerita, Farah menilai Iksandi merupakan pribadi yang mengispirasi, pintar dan menyenangkan, dari sanalah hubungan kami semakin dekat..
       `,
     ],
     [
@@ -105,10 +106,10 @@ const locale = {
   gift_body:
     "Merupakan suatu kehormatan dan kebahagiaan kami apabila Anda berkenan hadir untuk memberikan doa terbaik bagi kami. Bagi Anda yang ingin memberikan kado spesial, kami memiliki beberapa alternatif",
 
-  message_title: "Pesan dan Ucapan",
-  message_subtitle: "",
+  message_title: "Pesan & Ucapan",
+  message_subtitle: "Kirimkan Pesan & Ucapan untuk Kami",
   message_form_name_placeholder: "Nama Anda",
-  message_form_message_placeholder: "Pesan dan Ucapan",
+  message_form_message_placeholder: "Pesan & Ucapan",
   message_form_button_text: "Kirim",
 
   rsvp_title: "Konfirmasi Kehadiran Anda",

@@ -32,6 +32,7 @@ const transform = function transform(data) {
     save_the_date: {
       title: data.date_title,
       subtitle: data.date_subtitle,
+      liveStreamText: data.date_live_stream_text,
       body: data.date_body,
       countdown: {
         day: data.date_countdown_day,
