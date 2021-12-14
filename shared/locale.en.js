@@ -1,6 +1,6 @@
 const locale = {
-  page_title: "The Wedding of Farah & Iksandi, 18 December 2021",
-  page_description: "The Wedding of Farah & Iksandi, 18 December 2021",
+  page_title: "The Wedding of Farah & Iksandi, 18th December 2021",
+  page_description: "The Wedding of Farah & Iksandi, 18th December 2021",
 
   nav_logo_text: "",
   nav_item_live: "Live Stream",
@@ -185,7 +185,7 @@ const locale = {
 
   credit_header: "With ♥ from Bandung",
   credit_title: "Farah & Iksandi",
-  credit_subtitle: "18 December 2021",
+  credit_subtitle: "18th December 2021",
 };
 
 export default locale;
